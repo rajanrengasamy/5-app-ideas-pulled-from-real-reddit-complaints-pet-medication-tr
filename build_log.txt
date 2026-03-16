@@ -1,15 +1,17 @@
 Build Log: 5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr
-Started: 2026-03-15T14:00:27.493607+00:00
-Ended: 2026-03-15T14:00:27.525716+00:00
-Builder mode: inline_fallback
+Started: 2026-03-16T14:01:24.396108+00:00
+Ended: 2026-03-16T14:01:25.152059+00:00
+Builder mode: inline_fallback (GLM: stub_fallback)
 Implemented:
-- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260316T010025/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr/README.md
-- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260316T010025/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr/main.py
+- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260317T010120/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr/README.md
+- /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260317T010120/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr/main.py
 How to run:
-- cd /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260316T010025/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr
+- cd /Users/rajan/Library/CloudStorage/Dropbox/Projects/moltbot/labs/overnight-pipeline/runs/20260317T010120/projects/5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr
 - python3 main.py
 Checks:
+- GLM generation: stub_fallback | GLM call failed: rc=1, stderr=error: required option '-m, --message <text>' not specified
 - python3 -m py_compile main.py => rc=0
-Known issues:
-- Inline fallback builder creates deterministic MVP scaffold, not full Codex implementation.
+Notes:
+- GLM-5-Turbo attempts to generate working code from PRD
+- Falls back to stub if GLM fails or times out
 Final status: SUCCESS
