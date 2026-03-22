@@ -1,10 +1,5 @@
 Build Log: 5-app-ideas-pulled-from-real-reddit-complaints-pet-medication-tr
-Timestamp: 2026-03-21T14:03:01.919670+00:00
-Builder: mercury_stub
-Checks:
-- wrote README.md
-- wrote main.py
-- stub generation completed
-How to run:
-- python3 main.py
-Final status: SUCCESS
+Timestamp: 2026-03-22T14:04:08.843394+00:00
+Status: BLOCKED_BUILDER_UNAVAILABLE
+Reason: FAILED: Mercury completion marker missing after 180s
+Final status: FAILED
